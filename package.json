@@ -1,8 +1,8 @@
 {
-  "name": "react-adal-azure-v2.0",
-  "version": "1.0.0",
+  "name": "react-adal-azure",
+  "version": "1.0.1",
   "description": "modified react-adal to support azure v2.0 only",
-  "main": "index.js",
+  "main": "lib/react-adal.js",
   "directories": {
     "lib": "lib"
   },

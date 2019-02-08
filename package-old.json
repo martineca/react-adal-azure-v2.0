@@ -1,0 +1,86 @@
+{
+  "_from": "react-adal",
+  "_id": "react-adal@0.4.22",
+  "_inBundle": false,
+  "_integrity": "sha512-jr0uCJtEF6FRCYftDr4FkjvmUh7g7cZH5joXdCCZTuF7qCsPKZYEJ+3/uJrGaa0ysCLVXR83VLRnqBs5toAgqA==",
+  "_location": "/react-adal",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "react-adal",
+    "name": "react-adal",
+    "escapedName": "react-adal",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/react-adal/-/react-adal-0.4.22.tgz",
+  "_shasum": "53f22c55a82dc764cb664960b3820c2b7615d871",
+  "_spec": "react-adal",
+  "_where": "/Users/o40677/Desktop/GPPss",
+  "author": {
+    "name": "salvoravida"
+  },
+  "bugs": {
+    "url": "https://github.com/salvoravida/react-adal/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {},
+  "deprecated": false,
+  "description": "Azure Active Directory (ADAL) support for ReactJS",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-eslint": "^10.0.1",
+    "babel-jest": "23.6.0",
+    "babel-loader": "8.0.4",
+    "babel-plugin-import": "^1.2.1",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react-app": "^3.0.0",
+    "babel-runtime": "^6.26.0",
+    "cross-env": "^5.1.4",
+    "eslint": "^5.6.1",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-config-defaults": "^9.0.0",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-jsx-a11y": "^6.0.2",
+    "eslint-plugin-react": "^7.5.1",
+    "lodash": "^4.17.11"
+  },
+  "homepage": "https://github.com/salvoravida/react-adal#readme",
+  "keywords": [
+    "react",
+    "implicit",
+    "js",
+    "AAD",
+    "adal",
+    "oauth",
+    "oauth2",
+    "azure",
+    "react-adal",
+    "actve",
+    "directory",
+    "msal"
+  ],
+  "license": "MIT",
+  "main": "lib/react-adal.js",
+  "name": "react-adal",
+  "peerDependencies": {
+    "react": "^15.0.0 || ^16.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/salvoravida/react-adal.git"
+  },
+  "scripts": {
+    "compile": "cross-env NODE_ENV=production babel src --out-dir lib",
+    "prepublish": "npm run compile"
+  },
+  "version": "0.4.22"
+}
